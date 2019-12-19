@@ -1,0 +1,37 @@
+@import "./resets";
+@import "./variables";
+body {
+    background-color: $bg-color;
+    display: flex;
+    justify-content: center;
+    height: 100vw;
+    width: 100vw;
+}
+
+.title {
+    color: $text-color;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.tableStyle {
+    border: 1px solid $table-color;
+    background-color: $table-color;
+    margin: 50px;
+    width: 50vw;
+}
+
+.tableHeader {
+    border: 3px solid $table-color;
+    color: $header-color;
+    text-transform: uppercase;
+}
+
+.itemsStyle {
+    border: 1px dotted;
+    text-align: center;
+}
+
+.ingredientStyle {
+    border: 1px dotted $bg-color2;
+}

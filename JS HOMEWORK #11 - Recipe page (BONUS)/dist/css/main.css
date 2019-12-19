@@ -1,0 +1,47 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: rgba(211, 31, 31, 0.582);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 100vw;
+  width: 100vw;
+}
+
+.title {
+  color: #d7fd00;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.tableStyle {
+  border: 1px solid rgba(16, 223, 195, 0.829);
+  background-color: rgba(16, 223, 195, 0.829);
+  margin: 50px;
+  width: 50vw;
+}
+
+.tableHeader {
+  border: 3px solid rgba(16, 223, 195, 0.829);
+  color: #0314fd;
+  text-transform: uppercase;
+}
+
+.itemsStyle {
+  border: 1px dotted;
+  text-align: center;
+}
+
+.ingredientStyle {
+  border: 1px dotted #4216d3;
+}
+/*# sourceMappingURL=main.css.map */
